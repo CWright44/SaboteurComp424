@@ -35,7 +35,7 @@ public class StudentPlayer extends SaboteurPlayer {
         // Is random the best you can do?
         Move myMove = boardState.getRandomMove();
 
-        
+
 
 
 
