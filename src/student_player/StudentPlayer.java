@@ -13,9 +13,12 @@ public class StudentPlayer extends SaboteurPlayer {
      * important, because this is what the code that runs the competition uses to
      * associate you with your agent. The constructor should do nothing else.
      */
+
+    //constructor modified to return student ID number
     public StudentPlayer() {
-        super("xxxxxxxxx");
+        super("260771827");
     }
+    
 
     /**
      * This is the primary method that you need to implement. The ``boardState``
@@ -23,6 +26,7 @@ public class StudentPlayer extends SaboteurPlayer {
      * make decisions.
      */
     public Move chooseMove(SaboteurBoardState boardState) {
+
         // You probably will make separate functions in MyTools.
         // For example, maybe you'll need to load some pre-processed best opening
         // strategies...
@@ -30,6 +34,14 @@ public class StudentPlayer extends SaboteurPlayer {
 
         // Is random the best you can do?
         Move myMove = boardState.getRandomMove();
+
+        
+
+
+
+
+
+
 
         // Return your move to be processed by the server.
         return myMove;
